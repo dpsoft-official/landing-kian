@@ -6,20 +6,20 @@ html {
     flex-direction: row;
     justify-content: center;
 }
-.head-cen {
+.header--originlist {
     display: flex;
     flex-direction: row;
 }
-.head-cento {
+.header--inlist {
     display: none;
 }
-#title {
+.header {
     flex-grow: 3;
 }
-#butt {
+.header--butten {
     flex-grow: 30;
 }
-#buy {
+.header--link-blue {
     flex-grow: 3;
     text-decoration:none;
     background-color: royalblue;
@@ -28,12 +28,12 @@ html {
     border-radius: 5px;
     
 }
-#buy1{
+.header--link{
     font-size: x-large;
     margin-top: 2.8%;
     margin-left: 5.8%;
 }
-#titlee {
+.header--title {
     background-color: white;
     color: royalblue;
     font-size: xx-large;
@@ -41,7 +41,7 @@ html {
     margin-right: 5.8%; 
     margin-left: 0%;
 }
-#titlee1 {
+.header--title-kian{
     text-decoration:none;
 }
 .cen {
@@ -54,7 +54,7 @@ html {
 .cen2 {
     margin-right: 0rem;
 }
-.hover1:hover > ul {
+.dropdown--list:hover > ul {
     display: flex;
     flex-direction: column;
 }
@@ -65,37 +65,37 @@ html {
     color: blue;
 }
 
-.center {
+.start {
     display: flex;
     flex-direction: row;
 }
 
-.ttest {
+.start--text {
     display: flex;
     flex-direction: column;
 }
-#img {
+.start--image {
     width: 50% ;
     margin-top: 5rem;
 }
-.lll {
+.start--text-span {
     color: royalblue;
 }
-.kl25 {
+.start--text-title {
     font-size: xx-large;
     margin-top: 5rem;
     margin-right: 30.8%;
  
 }
-.mjk {
+.start--text-details {
     margin-top: 1rem;
     margin-right: 30.8%;
 }
-.opl {
+.start--text-button {
     flex-direction: row;
     margin-top: 7rem;
 }
-.opl2 {
+.start--text-buttonorigin {
     margin-top: 1rem;
     margin-right: 30.8%;
     font-size: x-large;
@@ -105,7 +105,7 @@ html {
     padding: 0.6rem;
     border-radius: 0.4rem;
 }
-.opl3 {
+.start--text-buttondetails {
     margin-right: 2rem;
     font-size: x-large;
     text-decoration: none;
@@ -113,22 +113,22 @@ html {
     padding: 0.6rem;
     border-radius: 0.4rem;
 }
-.lll {
+.start--text-span{
     color: royalblue;
 }
 
 @media (max-width : 354px) {
-    .opl {
+    .start--text-button {
         display: flex;
         flex-direction: column;
     }
-    .opl2 {
+    .start--text-buttonorigin {
         padding: 0.6rem;
         margin: 0;
         margin-left: 30%;
         margin-right: 30%;
     }
-    .opl3 {
+    .start--text-buttondetails {
         padding: 0.6rem;
         margin: 0;
         margin-left: 30%;
@@ -136,7 +136,7 @@ html {
         margin-top: 00.4rem;
     }
 }
-.secend22 {
+.introduction {
     display: flex;
     flex-direction: row;
 }
@@ -180,7 +180,7 @@ html {
     margin-left: 20.8%;
 }
 @media (max-width : 768px) {
-    .secend22{
+    .introduction{
         flex-direction: column;
     }
     #aa1 {
@@ -237,20 +237,20 @@ html {
         margin-left: 5.8%;
     }
 }
-.comp {
+.logo {
     display: flex;
     flex-direction: row;
     justify-content:center;
     flex-wrap:wrap;
  
 }
-.comp1 {
+.logo--right {
     display: flex;
     flex-direction: row;
     justify-content:center;
     flex-wrap: wrap;
 }
-.comp2 {
+.logo--left {
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -260,20 +260,20 @@ html {
     display: flex;
     flex-direction: column;
 }
-.img12 {
+.logo--image {
     margin-left: 3.75rem;
     /* margin-top: 2rem; */
 }
-#img21 {
+.logo--image-nomarginleft {
     margin-right: 3.75rem;
     /* margin-top: 2rem; */
 }
-.img120 {
+.logo--image-nomargin {
     margin-top: 7rem;
 
 }
 
-.back2{
+.guide{
     background-color: #c8ffd4;
     display: flex;
     flex-direction: row-reverse;
@@ -281,16 +281,16 @@ html {
 .body {
     background-color: #ffffff;
 }
-.back2-in1 {
+.guide--matn {
     display: flex;
     flex-direction:column;
     justify-content: center;
 }
-.back2-in2 {
+.guide--tozih {
     display: flex;
     flex-direction: row;
 }
-.back2-in3 {
+.guide--tozih-smallgreen {
     display: flex;
     flex-direction: column;
 }
@@ -309,21 +309,21 @@ html {
 /* .back4 {
     background-color: white;
 } */
-#prog {
+.guide--text-bold {
     font-size: xx-large;
     margin-top: 5rem;
 }
-#prog2 {
+.guide--text-greenbold {
     font-size: xx-large;
     color: green;
 }
-#klop {
+.guide--text-small {
     font-size: larger;
     color: rgb(129, 124, 124);
     margin-top: 2rem;
     margin-left: 30.8%;
 }
-.qwe {
+.guide--text-greensmall {
     color: green;
     margin-top: 2rem;
     margin-left: 2.5rem;
@@ -345,7 +345,7 @@ html {
         width: 50%;
         margin-top: 0;
     }
-    #title{
+    .header{
         
         margin-top: 0.8rem;
     }
@@ -355,62 +355,62 @@ html {
     display: flex;
     flex-direction: column;
 }
-.end-body2 {
+.support {
     display: flex;
     flex-direction: row-reverse;
     background-color: #c8ffd4;
     justify-content: center;
 }
-.matna1 {
+.support--description-large {
     font-size: xx-large;
     margin-right: 20.8%;
     margin-top: 5rem;
 }
-.matna2 {
+.support--description-blue {
     font-size: xx-large;
     color: royalblue;
     margin-right: 20.8%;
 }
-.matnb1 {
+.support--description-bold {
     font-size: larger;
     margin-right: 30.8%;
 }
-.imgb1 {
+.support--description-image{
     margin-right: 30.8%;
 }
-.matnb2 {
+.support--description-small {
     margin-right: 30.8%;
     margin-top: 0.5rem;
 }
-.matna3 {
+.support--description-smallorigin {
     margin-right: 20.8%;
     margin-top: 0.5rem;
 }
-.img85 {
+.support--image {
     width: 50%;
     margin-top: 5rem;
 }
 @media (max-width : 768px) {
-    .center {
+    .start {
         flex-direction:column-reverse;
     }
-    .kl25 {
+    .start--text-title{
         margin-right: 20%;
         margin-left: 20%;
     }
-    .mjk{
+    .start--text-details{
         margin-left: 20%;
         margin-right: 20%;
     }
-    #img {
+    .start--image {
         width: 100%;
     }
-    .comp1 {
+    .logo--right {
         display: flex;
         flex-direction: column;
         justify-content:center;
     }
-    .comp2 {
+    .logo--left {
         display: flex;
         flex-direction: column;
         justify-content:center;
@@ -418,13 +418,13 @@ html {
     .img120 {
         margin-top: 0.2rem;
     }
-    .kjio {
+    .logo--imageorigin {
         margin-top: 8rem;
     }
-    #img21 {
+    .logo--image-nomarginleft {
         margin-right: 0;
     }
-    .back2 {
+    .guide {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -434,145 +434,140 @@ html {
         margin-right: 20%;
         margin-left: 20%;
     }
-    .oooo {
+    .guide--text-greensmall-top {
         margin-right: 25vw;
     }
-    .end-body2 {
+    .support {
         display: flex;
         flex-direction: column;
         background-color: #c8ffd4;
         justify-content: center;
     }
-    .img85 {
+    .support--image {
         margin-right: 20%;
         margin-left: 20%;
     }
-    .kjh {
+    .support--some {
         margin-right: 20%;
         margin-left: 20%;
     }
 
 }
-.body3-1 {
+.consent {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.body3-2 {
+.example {
     display: flex;
     flex-direction: row;
     justify-content:center;
 }
-.body3-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.man1 {
+.consent--text-bold {
     font-size: xx-large;
     text-align: center;
     margin-top: 10rem;
 }
-.man2 {
+.consent--text-small {
     font-size: medium;
     text-align: center;
     margin-top: 1.2rem;
 }
-.img89 {
+.example--image {
     width: 40%;
     margin-right: 20%;
     margin-top: 0.7rem;
 }
-.jhu {
+.example--image-logo {
     margin-left: 20%;
 }
-.jklp {
+.example--image-logolink {
     width: 30%;
 }
 @media only screen and (max-width : 768px) {
-    .body3-2 {
+    .example {
         display: flex;
         flex-direction: column;
     }
-    .jhu {
+    .example--image-logo {
         text-align: center;
     }
-    .jklp {
+    .example--image-logolink {
         align-self: center;
     }
 }
-.body4-1 {
+.statis--section {
     display: flex;
     flex-direction: row-reverse;
 }
-.img90 {
+.statis--image {
     width:70%;
     margin: 3rem 1rem 0 0;
 }
-.matna45 {
+.statis--textbold {
     font-size: xx-large;
     margin: 3rem 15% 0 0;
 }
-.matna46 {
+.statis--textboldblue {
     font-size: xx-large;
     color: royalblue;
     margin: 0.4rem 15% 0 0;
 }
-.matna47 {
+.statis--textsmall {
     margin: 1rem 15% 0 0;
 }
-.body4-3 {
+.statis--amar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 1rem;
 }
-.matnb45 {
+.statis--amar-text-digi {
     font-size: x-large;
     margin-bottom: 0.2rem;
 }
 
-.body5-1 {
+.buy {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.matnk1 {
+.buy--text-bold {
     font-size: xx-large;
     text-align: center;
     margin-top: 5rem;
 }
-.matnk2 {
+.buy--text-medium {
     text-align: center;
     margin: 0.8rem 37%;
 }
 @media only screen and (max-width: 768px) {
-    .body4-1 {
+    .statis--section {
         display: flex;
         flex-direction: column;
     }
-    .ghk {
+    .statis--some{
         
         margin: 1rem 5rem;
         text-align: center;
     }
-    .matnk2 {
+    .buy--text-medium {
         margin: 0.8rem 15%;
     }
 }
-.body6 {
+.offer {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.body6-1 {
+.offer--small {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
     margin-right: 20%;
 }
-.body6-2 {
+.offer--big {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -580,7 +575,7 @@ html {
     margin-left: 20%;
 
 }
-#mar {
+.offer--logo-standard {
     display: inline-block;
     color: royalblue;
     background-color: rgb(226, 226, 226);
@@ -588,30 +583,30 @@ html {
     border-radius: 4px;
     margin: 2rem 42% 3.5rem 0rem;
 }
-.bnh {
+.offer--price-digi {
     text-align: center;
     font-size: larger;
 }
-#toman {
+.offer--price-digitoman {
     font-size: x-large;
 }
-#tw29 {
+.offer--price-digi29 {
     font-size: xx-large;
 }
-.body6-1-2-1 {
+.offer--price-bold {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-#sandli {
+.offer--price-text {
     text-align: center;
     margin-bottom: 3rem;
 }
-.matnp1 {
+.moffer--description-text {
     margin-bottom: 1.2rem;
     margin-right: 3.5rem;
 }
-#but125 {
+.offer--description-buttonblue {
     display: block;
     background-color: royalblue;
     padding: 1rem 0;
@@ -620,10 +615,10 @@ html {
     text-decoration: none;
     border-radius: 4px;
 }
-#but125:hover {
+.offer--description-buttonblue:hover {
     background-color: blue;
 }
-#matnl1 {
+.offer-logo-shekat{
     display: inline;
     justify-content: center;
     margin-right: 43%;
@@ -633,12 +628,12 @@ html {
     padding: 0.5rem 0.5rem;
     border-radius: 4px;
 }
-#matnl2 {
+.offer-logo-baste{
     margin-top: 3.8rem;
     text-align: center;
     margin-bottom:7rem;
 }
-#but126 {
+.offer--buttongray-boxing {
     display: block;
     background-color: rgb(226, 226, 226);
     padding: 1rem 0;
@@ -648,33 +643,33 @@ html {
     border-radius: 4px;
 
 }
-#but126:hover {
+.offer--buttongray-boxing:hover {
     background-color:rgb(204, 203, 203) ;
 }
-.body6-2 {
+.offer--big {
     margin-left: 25%;
 }
 @media (max-width: 768px) {
-    .body6 {
+    .offer {
         display: flex;
         flex-direction: column;
     }
-    .body6-2 {
+    .offer--big{
         margin: 0 20%;
         margin-top: 3rem;
     }
 }
-.body7 {
+.question {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.body7-1 {
+.question--top {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.body7-2 {
+.question--buttn {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -685,136 +680,71 @@ html {
     justify-content: space-around;
 }
 
-#img {
+.start--image {
   margin-right: 0%;
   width: 50%;
 }
-.center {
+.start{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.mnkll {
-    display: flex;
-}
-.hjkla {
-    display: flex;
-}
-.kjh {
+
+.support--some {
     margin-right: 5%;
 }
-.but4568 {
-    display: block;
-    background-color: rgb(0, 201, 0);
-    padding: 0.5rem 0px;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: large;
-    margin-bottom: 5rem;
-    box-shadow: 0.5rem 0.5rem 1.5rem rgb(22 28 45 / 10%) ;
-    border-color: rgb(0, 201, 0);
-    font-family: vazir;
-}
-.but4568:hover {
-    background-color: green;
-    box-shadow: 10px 10px 7px 1px rgba(0, 0, 255, .2);
-}
-.form5 {
-    padding: 0.3rem 0.3rem 0.3rem 0;
-    font-family: vazir;
-}
-.ddddf {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-}
-.kl500 {
-    margin: 0;
-}
-.oopo {
-    display: flex;
-    margin: 0;
-}
-.img200 {
-    margin: 0;
-}
-.back2 {
+.guide {
     display: flex;
     justify-content:space-around;
     flex-direction: row-reverse;
 }
-.back3 {
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-}
-#klop {
+.guide--text-small{
     display: flex;
 }
-.kl500 {
-    display: flex;
-    padding-left: 11vw;
-    margin-top: 2rem;
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
-   
-}
-.back30 {
-    width: 73%;
-    margin-right: 13.4%;
-    margin-top: 3rem;
-}
-.but4568{
-    margin-bottom: 0.5rem;
-    text-align: center;
-    
-}
-.body7 {
+.question {
     display: flex;
     flex-direction: column;
 }
-.sssdf {
+.question--top-tozih {
     display: flex;
     flex-direction:row;
 }
-.matnq1 {
+.question--title {
     font-size: x-large;
     margin-left: 20%;
 }
-#titlee1 {
+.header--title-kian {
     font-size: x-large;
 }
 .cen {
     font-size: medium;
     color: darkgrey;
 }
-#buy {
+.header--link-blue {
     font-size: large;
 }
-.kl25 {
+.start--text-title{
     font-size:2.5rem;
     line-height: 50px;
     margin-top: 20%;
     font-weight:lighter;
 }
-.mjk {
+.start--text-details {
     color: darkgrey;
     font-size: large;
     line-height: 29px;
 }
-.opl2 {
+.start--text-buttonorigin {
     font-size: medium;
     padding: 1rem;
 }
-.opl3 {
+.start--text-buttondetails {
     font-size: medium;
 }
 .hjkl{
     margin-right: 15%;
 }
-#img {
+.start--image {
     width: 43%;
     margin-left: 10%;
     margin-right: 10%;
@@ -829,99 +759,100 @@ html {
 .phm {
     line-height: 50px;
 }
-#klop {
+.guide--text-small {
     line-height: 25px;
 }
-.oooo {
+.guide--text-greensmall-top{
     line-height: 20px;
 }
-.ooo {
+.guide--text-greensmall-buutn {
     line-height: 20px;
 }
-.kjh {
+.support--some {
     line-height: 25px;
     margin-right: 13%;
 }
-.img85 {
+.support--image {
     width: 40%;
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 120px;
 }
-.matna1 {
+.support--description-large {
     line-height: 50px;
 }
 
-.matnb2 {
+.support--description-small {
     color: darkgrey;
 }
-.matna3 {
+.support--description-smallorigin {
     color: darkgrey;
 }
-.matna1 {
+.support--description-large {
     margin-top: 120px;
 }
-.man2 {
+.consent--text-small {
     color: darkgray;
 }
-.body3-3 {
+.consent {
     display: flex;
     align-items: center;
     align-content: center;
-}.img89 {
+}
+.example--image {
     margin-left: 0;
 }
 .jhu {
 
     line-height: 25px;
 }
-.jhuk {
+.example--text-small {
     margin-top: 3rem;
     color: darkgray;
 }
-.ghk {
+.statis--some {
     margin-right: 13.7%;
 }
-.matnb46 {
+.statis--amar-text {
     margin-right: 0;
 }
-.matna47 {
+.statis--textsmall {
     line-height: 25px;
     color: darkgrey;
     margin-left: 15%;
 }
-.matnk2 {
+.buy--text-medium {
     color: darkgray;
     line-height: 25px;
     margin: 1rem 30%;
     font-size: larger;
 }
-.matnk1 {
+.buy--text-bold {
     font-size: 2.5rem;
 }
-#tw29 {
+.offer--price-digi29 {
     font-size: 5rem;
 }
-#toman {
+.offer--price-digitoman {
     font-size: xx-large;
     margin-top: 1rem;
 }
-#maha {
+.offer--price-digimah {
     font-size: x-large;
     margin-top: 2.5rem;
 }
-#sandli {
+#offer--price-text {
     color: darkgray;
     margin-top: 1rem;
 }
-#but125 {
+.offer--description-buttonblue {
     margin-top: 60px;
 }
-#matnl2 {
+.offer-logo-baste {
     color: darkgray;
     line-height: 25px;
 }
-.body4-3 {
+.statis--amar {
     display: flex;
     flex-direction: row;
     margin-top: 1rem;
@@ -929,68 +860,68 @@ html {
     align-content: center;
     justify-content: space-evenly;
 }
-.body6 {
+.offer  {
     margin-top: 9rem;
 }
 
-.body7-1 {
+.question--top {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.body7-2 {
+.question--buttn {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.body7 {
+.question{
     flex-direction: row;
     background-color: rgb(24, 14, 63);
 }
-.sssdf {
+.question--top-tozih {
     margin-right: 13.5%;
     margin-bottom: 0.5rem;
 }
-.sssdf2 {
+.question--top-tozihmore {
     margin-right: 13.5%;
     margin-left: 0;
 }
-.matnq2 {
+.question--description {
     margin-right: 15%;
     margin-left: 15%;
     margin-bottom: 2rem;
     color: darkgray;
     line-height: 25px;
 }
-.matnq1 {
+.question--title {
     margin-top: 0.8rem;
     margin-right: 0.2rem;
     color: white;
 }
-.s56 {
+.question--logo{
     background-color: lawngreen;
     padding: 5.5px;
     border-radius: 1000px;
 
 }
-#but125 {
+.offer--description-buttonblue {
     margin-bottom: 4rem;
 }
     
 @media (max-width:992px) {
-    .body7 {
+    .question {
         display:flex;
         flex-wrap: wrap;
     }    
 }
-.body8 {
+.info{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: rgb(24, 14, 63);
 }
-.body8-1 {
+.info--logo {
     background-color: rgb(255, 255, 255);
     padding: 6px;
     border-radius: 6px;
@@ -998,106 +929,84 @@ html {
     font-size: small;
     margin-top: 5rem;
 }
-.body8-2 {
+.info--title {
     color: white;
     font-size: xx-large;
     margin-top: 3rem;
 }
-.body8-3 {
+.info--text {
     color: darkgrey;
     margin: 0rem 25%;
     margin-top: 2rem;
    text-align: center;
 }
-.body8-4 {
+.info--button {
     padding: 18px;
     background-color: chartreuse;
     border-radius: 4px;
     margin-top: 2rem;
    margin-bottom: 10rem;
 }
-#fgy {
+.info--buttonbuy {
     text-decoration: none;
     color: white;
 
 }
-.body8-4:hover {
+.info--button:hover {
     background-color: green;
     box-shadow: 0.11px 5px 5px white;
 }
-.body9 {
+.footer {
     display: flex;
     flex-direction: row;
 
 }
-.body9-1 {
+.footer--title {
     display: flex;
     flex-direction: column;
    
 }
-.body9-1-3 { 
+.footer--logobuttn { 
     display: flex;
     flex-direction: row;
 }
-.body9-2 {
+.footer--description {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.body9-2-1 {
+.footer--description-title {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-.textp1 {
+.footer--orgintitle-kian {
     margin-top: 5rem;
     color: royalblue;
     font-size: x-large;
     margin-right: 30%;
 }
-.textp2 {    margin-top: 0.8rem;
+.footer--orgintitle-tarh {    margin-top: 0.8rem;
     color: darkgray;
     margin-right: 30%;
 }
-.lasttext {
+.footer--description-text {
     margin-bottom: 1rem;
     margin-right: 7rem;
     margin-top: 5rem;
 }
-.lastbut {
+.footer--description-link {
     margin-right: 7rem; 
     text-decoration: none;
     color: darkgray;
     margin-bottom: 1rem;
 }
-.img789 {
+.guide--image {
     width: 77%;
     margin-top: 10rem;
     margin-right: 23%;
 }
-/*
-#prog {
-    margin-top: 20rem;
-}
-.phm {
-    margin-right: 7rem;
-}
-.back2--1-2 {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-}
-.matnhj {
-    margin-right: 23%;
-    margin-left: 0;
-    margin-top: 1rem;
-}
-.poi {
-    margin-right: 23%;
-    margin-left: 0;
-    margin-top: 1rem;
-} */
-.back2--1-2 {
+.guide--moshaver{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1108,29 +1017,21 @@ html {
     margin-bottom: 1rem;
     
 }
-.back2--1 {
+.guide--aks {
     display: flex;
     flex-direction: column;
 }
-.back2--1-1 {
+.guide--aksdateils {
     display: flex;
     justify-content: space-around;
 }
 .phm {
     margin-right: 7rem;
 }
-/* .matnhj {
-    margin-right: 29%;
-    margin-left: 0;
-    margin-top: 1rem;
-    padding: 0.39rem 3.7rem;
-    padding-right: 0.4rem;
-    padding-left: 7rem;
-} */
-#prog {
+.guide--text-bold{
     margin-top: 20rem;
 }
-.poi {
+.guide--button {
     margin-right: 0;
     margin-left: 0;
     margin-top: 1rem;
@@ -1143,7 +1044,7 @@ html {
     margin-bottom: 2rem;
 }
 
-.matnhj {
+.guide--form {
     padding: 0.49rem 0.4rem 0.49rem 7rem;
     margin-top: 1.4rem;
     padding: 3% 1% 3% 40%;
@@ -1153,97 +1054,97 @@ html {
     margin-top: 3rem;
 }
 
-.back2--1-2:hover {
+.guide--moshaver:hover {
     box-shadow:0 0 13px black ;
 }
-.img789:hover{
+.guide--image:hover{
     box-shadow: 0 0 13px black;
 }
-.poi:hover {
+.guide--button:hover {
     box-shadow: 0 0 13px black;
     background-color: green;
 }
-.opl2:hover {
+.start--text-buttonorigin:hover {
     background-color: blue;
     box-shadow: 0 0 13px black;
 }
-.opl3:hover {
+.start--text-buttondetails:hover {
     box-shadow: 0 0 13px black;
     background-color: darkgray;
 }
-.asdfgg:hover {
+.header--link-blue:hover {
     background-color: rgb(12, 12, 143);
     box-shadow: 0 0 13px black;
 }
 .matnb20 {
     margin-bottom: 10rem;
-}.img85 {
+}.support--image {
     display: flex;
     flex-direction: row;
     width: 40%;
     height: 30%;
 }
-.man2 {
+.consent--text-small {
     margin-bottom: 1rem;
 }
-.body4-1 {
+.statis--section {
     margin-top: 8rem;
     background-color: #c8ffd4;
 }
-.body5-1 {
+.buy {
     background-color: #c8ffd4;
 }
 @media (max-width:768px) {
-    .center {
+    .start {
         display: flex;
         flex-direction: column-reverse;
     }
-    #img {
+    .start--image {
         width: 100%;
         margin: 0;
     }
-    .back2 {
+    .guide {
         display: flex;
         flex-direction: column;
     }
-    .img789 {
+    .guide--image {
         margin-right: 0;
         margin-left: 0;
         margin-bottom: 0rem;
         margin-top: 2rem;
     }
-    .matnhj {
+    .guide--form {
         margin-right: 0;
         margin-left: 0;
     }
-    .back2--1-2 {
+    .guide--moshaver {
         margin-right: 11.5%;
         margin-left: 11.5%;
     }
-    .poi {
+    .guide--button {
         margin-right: 11.5%;
         margin-left: 11.5%;
     }
-    #prog {
+    .guide--text-bold{
         margin-top: 2rem;
     }
-    .img85{
+    .support--image{
         width: 80%;
         margin-bottom: 3rem;
     }
-    .end-body2 {
+    .support {
         flex-direction: column-reverse;
     }
     .matnb20 {
         margin-bottom: 2rem;
     }
-    .img89 {
+    .example--image {
         margin-right: 10%;
         margin-left: 10%;
         width: 80%;
         margin-top: 2rem;
     }
-    .img90 {
+    .statis--image{
         margin-right: 10%;
         margin-left: 10%;
         width: 80%; 
@@ -1255,4 +1156,95 @@ html {
     .ghk {
         margin: 0;
     }
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.header--inlist {
+        display: none;
+        position: absolute;
+        background-color: rgb(195, 210, 255);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+}
+.cen1 {
+    padding: 5px 10px;
+    display: block;
+}
+@media (max-width :992px ) {
+    .header--link-blue {
+        display: none;
+    }
+    .header--butten {
+        position:relative;
+    }
+    .cen1 {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .dropdown--list {
+        float: none;
+    }
+    .header--inlist {
+        position: relative;
+    }
+    .navhi {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+.statis--section {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.statis {
+    display: flex ;
+    flex-direction: row-reverse;
+    background-color: #c8ffd4;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.statis--svg {
+      height: 250.283px;
+}
+.logo {
+    display: flex;
+    justify-content:space-around;
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.logo--image {
+    margin: 0;
+    padding: 0;
+    margin: 3rem 0;
+}
+.logo--image-nomargin{
+    margin: 0;
+    padding: 0;
+}
+.example--image-logo {
+    margin-left: 0;
+}
+.question--svg{
+    height: 250.283px;
+}
+.offer--description-text  {
+    margin-top: 1.3rem;
+}
+.offer--price-text {
+    display: inline;
+    justify-content: center;
+    margin-right: 35%;
+    color: darkgray;
+    padding: 0.5rem 0.5rem;
+    border-radius: 4px;
 }
